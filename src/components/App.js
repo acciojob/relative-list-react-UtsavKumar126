@@ -4,11 +4,11 @@ const App = () => {
   return (
     <div id="main">
                {/* Do not remove the main div */}
-               <ol key={"relativeList"}>
-                <li key={"relativeListItem1"}>Mama</li>
-                <li key={"relativeListItem2"}>Chacha</li>
-                <li key={"relativeListItem3"}>Nana</li>
-                <li key={"relativeListItem4"}>Dada</li>
+               <ol id="relativeList">
+                <li id="relativeListItem1">Mama</li>
+                <li id="relativeListItem2">Chacha</li>
+                <li id="relativeListItem3">Nana</li>
+                <li id="relativeListItem4">Dada</li>
                </ol>
     </div>
   )
